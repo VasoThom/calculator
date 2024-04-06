@@ -1,0 +1,54 @@
+body {
+  background: rgb(127, 126, 126);
+}
+h1 {
+  text-align: center;
+}
+
+.container {
+  margin: 50px auto;
+  text-align: center;
+  border: 2px solid #282824;
+  width: 300px;
+  height: 440px;
+  background: #000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+button {
+  color: white;
+  background: rgb(37, 34, 34);
+  border-radius: 50%;
+  font-size: 35px;
+  width: 60px;
+  height: 60px;
+  border-style: none;
+  margin: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.col {
+  color: white;
+  font-size: 25px;
+}
+.orange-button {
+  background: orange;
+}
+.grey-button {
+  background: grey;
+}
+.zero {
+  width: 130px;
+  height: 60px;
+  border-radius: 150px;
+}
+
+.input {
+  padding-top: 30px;
+  text-align: right;
+  height: 50px;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
